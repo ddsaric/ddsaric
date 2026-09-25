@@ -12,7 +12,7 @@ IA, Software & Arquitectura: APIs REST, Integración de LLMs, Linux (Raspberry P
 
 Control & Robótica: Espacio de estados, controladores MPC, LQR/LQG, Filtro de Kalman, Lógica Difusa.
 
-Comunicaciones & IoT: BLE (RSSI), UART, SPI, I2C, MQTT, SSH.
+Comunicaciones & IoT: BLE (RSSI), UART, SPI, I2C, MQTT, Node-RED, SSH.
 
 Diseño Mecánico: Autodesk Fusion 360, SolidWorks (CAD/CAM).
 
@@ -23,11 +23,11 @@ Diseño Mecánico: Autodesk Fusion 360, SolidWorks (CAD/CAM).
 
 Stack: Python | Linux | REST APIs | Git
 
-🏎️ Vehículo Robótico de Seguimiento BLE con Evasión de Obstáculos
+⌨️ Teclado Corne Custom: Firmware & Editor de Capas
 
-Diseño y construcción de un vehículo capaz de detectar una baliza BLE y modificar su trayectoria usando RSSI, integrando control reactivo PWM (L298N) y evasión con sensor ultrasónico.
+Diseño e impresión 3D de carcasa ergonómica con hand-wiring de matriz. Desarrollo de firmware C++ (arquitectura maestro-esclavo) y programación de interfaz gráfica de escritorio en Python para personalización de capas y sobrescritura dinámica de código fuente embebido.
 
-Stack: ESP32 | C++ | BLE | Modulación PWM
+Stack: C++ | Python | Pro Micro | Diseño 3D
 
 🏭 Instrumentación IoT para Planta de Procesamiento
 
