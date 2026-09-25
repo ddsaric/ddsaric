@@ -17,20 +17,28 @@ Comunicaciones & IoT: BLE (RSSI), UART, SPI, I2C, MQTT, SSH.
 Diseño Mecánico: Autodesk Fusion 360, SolidWorks (CAD/CAM).
 
 📌 Proyectos Destacados
-🤖 JARVIS - Asistente Personal Modular en Raspberry Pi 5
-Arquitectura de software modular con motor de routing dinámico para proveedores de IA, integración con memoria persistente y Google Drive API, preparado para comunicación física con nodos ESP32.
+🤖 H.E.R.M.E.S. - Asistente Personal Modular en Raspberry Pi 5
+
+(Heuristic Engine for Routing Models & Embedded Systems). Arquitectura de software modular con motor de routing dinámico para proveedores de IA, integración con memoria persistente y Google Drive API, preparado para comunicación física con nodos ESP32.
+
 Stack: Python | Linux | REST APIs | Git
 
 🏎️ Vehículo Robótico de Seguimiento BLE con Evasión de Obstáculos
+
 Diseño y construcción de un vehículo capaz de detectar una baliza BLE y modificar su trayectoria usando RSSI, integrando control reactivo PWM (L298N) y evasión con sensor ultrasónico.
+
 Stack: ESP32 | C++ | BLE | Modulación PWM
 
 🏭 Instrumentación IoT para Planta de Procesamiento
+
 Nodo de instrumentación para planta de mezclado (celdas de carga HX711, nivel ultrasónico, sondas DS18B20) con broker MQTT local propio y dashboard interactivo HMI en Node-RED.
+
 Stack: ESP32 | Node-RED | MQTT | Sensores Analógicos
 
 🏗️ Sistema de Control Antisway para Mecanismo de Grúa
+
 Arquitectura de control con realimentación angular vía encoders para minimizar el balanceo dinámico de cargas. Evaluación comparativa de estrategias PID, LQR, LQG y MPC para rechazo activo de perturbaciones.
+
 Stack: Arduino | MATLAB | Simulink | Encoders
 
 📬 Contacto
