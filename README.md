@@ -1,50 +1,39 @@
 # Hola, soy Dusan Saric 👋
 
-**Estudiante de Ingeniería Mecatrónica | Sistemas Embebidos, Automatización y Control**
+**Estudiante de Ingeniería Mecatrónica | Robótica, Sistemas Embebidos e IA**
 
-Apasionado por el desarrollo de soluciones de ingeniería que integran hardware y software. Enfocado en arquitectura de firmware para microcontroladores, modelado y control de plantas dinámicas, telemetría IoT y automatización local mediante servidores dedicados.
+Apasionado por el desarrollo de soluciones de ingeniería que integran hardware y software. Enfocado en el desarrollo de firmware para microcontroladores, arquitectura de software en Linux/Raspberry Pi y el diseño de sistemas de control dinámico. Experiencia integrando sensores, comunicaciones inalámbricas y actuadores físicos en arquitecturas distribuidas de punta a punta.
 🛠️ Stack Tecnológico & Habilidades
-Sistemas Embebidos & Hardware
-Protocolos & Buses: UART, I2C, SPI, MQTT, WebSockets.
+Lenguajes de Programación: C, C++, Python, MATLAB, Bash.
 
-Microcontroladores: ESP32 / ESP32-S3, STM32 (Nucleo/Cortex-M), TM4C1294 (Tiva C), Arduino Mega/Uno.
+Sistemas Embebidos: ESP32 / ESP32-S3, STM32 (L432KC), TM4C1294 (Tiva C), Raspberry Pi 5, Arduino.
 
-Control, Modelado & Software
-Ingeniería de Control: Modelado dinámico en espacio de estados, controladores PID, LQR, Filtro de Kalman y simulación de lazos cerrados.
+IA, Software & Arquitectura: APIs REST, Integración de LLMs, Linux (Raspberry Pi OS/Debian), Docker, Git/GitHub.
 
-Infraestructura & Entorno: Raspberry Pi OS / Debian, Docker, redes privadas locales (Tailscale, SSH, VNC).
+Control & Robótica: Espacio de estados, controladores MPC, LQR/LQG, Filtro de Kalman, Lógica Difusa.
 
-Diseño CAD/CAM: Autodesk Fusion 360, SolidWorks (modelado 3D, ensambles mecánicos y mecanizado CNC).
+Comunicaciones & IoT: BLE (RSSI), UART, SPI, I2C, MQTT, SSH.
+
+Diseño Mecánico: Autodesk Fusion 360, SolidWorks (CAD/CAM).
 
 📌 Proyectos Destacados
-MecaHub-32 / Control Distribuido
+🤖 JARVIS - Asistente Personal Modular en Raspberry Pi 5
+Arquitectura de software modular con motor de routing dinámico para proveedores de IA, integración con memoria persistente y Google Drive API, preparado para comunicación física con nodos ESP32.
+Stack: Python | Linux | REST APIs | Git
 
-Arquitectura de control distribuido mediante bus serie UART entre ESP32-S3 y STM32 para accionamiento y monitoreo de actuadores industriales.
+🏎️ Vehículo Robótico de Seguimiento BLE con Evasión de Obstáculos
+Diseño y construcción de un vehículo capaz de detectar una baliza BLE y modificar su trayectoria usando RSSI, integrando control reactivo PWM (L298N) y evasión con sensor ultrasónico.
+Stack: ESP32 | C++ | BLE | Modulación PWM
 
-Stack: ESP32-S3 | STM32 | C++ | UART
+🏭 Instrumentación IoT para Planta de Procesamiento
+Nodo de instrumentación para planta de mezclado (celdas de carga HX711, nivel ultrasónico, sondas DS18B20) con broker MQTT local propio y dashboard interactivo HMI en Node-RED.
+Stack: ESP32 | Node-RED | MQTT | Sensores Analógicos
 
-Simulación & Control de Péndulo Invertido
-
-Modelado y control moderno por realimentación de estados (LQR) con monitoreo y animación gráfica en tiempo real vía telemetría serial en MATLAB.
-
-Stack: MATLAB | Simulink | Arduino Mega | LQR
-
-Monitor de Procesos Industriales
-
-Sistema de telemetría y pesaje con adquisición de celda de carga HX711, publicación de datos vía MQTT y visualización en dashboards interactivos.
-
-Stack: ESP32 | Node-RED | MQTT | HX711
-
-NEXUS - Sistema de Gestión C++
-
-Aplicación modular de consola en C++ con persistencia de registros estructurados en bases de datos relacionales SQL.
-
-Stack: C++ | MySQL | Programación Orientada a Objetos
+🏗️ Sistema de Control Antisway para Mecanismo de Grúa
+Arquitectura de control con realimentación angular vía encoders para minimizar el balanceo dinámico de cargas. Evaluación comparativa de estrategias PID, LQR, LQG y MPC para rechazo activo de perturbaciones.
+Stack: Arduino | MATLAB | Simulink | Encoders
 
 📬 Contacto
 Correo Electrónico: dusan.saric2005@gmail.com
 
-GitHub: github.com/ddsaric
-
-LinkedIn: linkedin.com/in/tu-perfil
-
+LinkedIn: linkedin.com/in/ddsaric
